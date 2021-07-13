@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Module : Identifiable, Decodable { 
+class Module : Identifiable, Decodable {
     
     var id : Int
     var category : String
@@ -43,10 +43,8 @@ struct Test : Decodable, Identifiable {
 }
 
 struct Question : Decodable, Identifiable {
-    
     var id : Int
     var content : String
     var correctIndex : Int
     var answers : [String]
-    
 }

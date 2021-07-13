@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D78158622696647E00917793 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78158612696647E00917793 /* HomeViewRow.swift */; };
+		D781586426966BDA00917793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781586326966BDA00917793 /* ContentView.swift */; };
+		D78158662696C7B400917793 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78158652696C7B400917793 /* ContentViewRow.swift */; };
+		D7B65B6E269E474D000C188A /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B65B6D269E474D000C188A /* ContentDetailView.swift */; };
 		D7C91E8D268D21830063BD66 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C91E8C268D21830063BD66 /* LearningApp.swift */; };
 		D7C91E8F268D21830063BD66 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C91E8E268D21830063BD66 /* HomeView.swift */; };
 		D7C91E91268D218A0063BD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C91E90268D218A0063BD66 /* Assets.xcassets */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D78158612696647E00917793 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		D781586326966BDA00917793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D78158652696C7B400917793 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		D7B65B6D269E474D000C188A /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		D7C91E89268D21830063BD66 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C91E8C268D21830063BD66 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		D7C91E8E268D21830063BD66 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -41,6 +49,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7B65B6B269E4702000C188A /* Module Views */ = {
+			isa = PBXGroup;
+			children = (
+				D781586326966BDA00917793 /* ContentView.swift */,
+				D78158652696C7B400917793 /* ContentViewRow.swift */,
+				D7B65B6D269E474D000C188A /* ContentDetailView.swift */,
+			);
+			path = "Module Views";
+			sourceTree = "<group>";
+		};
+		D7B65B6C269E4735000C188A /* Test Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Test Views";
+			sourceTree = "<group>";
+		};
 		D7C91E80268D21820063BD66 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +109,10 @@
 		D7C91E9B268D22030063BD66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D7B65B6C269E4735000C188A /* Test Views */,
+				D7B65B6B269E4702000C188A /* Module Views */,
 				D7C91E8E268D21830063BD66 /* HomeView.swift */,
+				D78158612696647E00917793 /* HomeViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,7 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D78158662696C7B400917793 /* ContentViewRow.swift in Sources */,
+				D781586426966BDA00917793 /* ContentView.swift in Sources */,
 				D7C91E8F268D21830063BD66 /* HomeView.swift in Sources */,
+				D7B65B6E269E474D000C188A /* ContentDetailView.swift in Sources */,
+				D78158622696647E00917793 /* HomeViewRow.swift in Sources */,
 				D7C91E8D268D21830063BD66 /* LearningApp.swift in Sources */,
 				D7C91EA1268D25250063BD66 /* ContentModel.swift in Sources */,
 				D7C91EA7268D50260063BD66 /* Models.swift in Sources */,
