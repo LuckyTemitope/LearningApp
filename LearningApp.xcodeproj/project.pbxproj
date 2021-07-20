@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D73A8F9626A72F0D00FF36B2 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A8F9526A72F0D00FF36B2 /* RectangleCard.swift */; };
 		D78158622696647E00917793 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78158612696647E00917793 /* HomeViewRow.swift */; };
 		D781586426966BDA00917793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781586326966BDA00917793 /* ContentView.swift */; };
 		D78158662696C7B400917793 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78158652696C7B400917793 /* ContentViewRow.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D73A8F9526A72F0D00FF36B2 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 		D78158612696647E00917793 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		D781586326966BDA00917793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D78158652696C7B400917793 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				D7B65B6B269E4702000C188A /* Module Views */,
 				D7C91E8E268D21830063BD66 /* HomeView.swift */,
 				D78158612696647E00917793 /* HomeViewRow.swift */,
+				D73A8F9526A72F0D00FF36B2 /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				D7B65BB3269F23B2000C188A /* CodeTextView.swift in Sources */,
 				D7C91EA1268D25250063BD66 /* ContentModel.swift in Sources */,
 				D7C91EA7268D50260063BD66 /* Models.swift in Sources */,
+				D73A8F9626A72F0D00FF36B2 /* RectangleCard.swift in Sources */,
 				D7B65B73269E56DB000C188A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

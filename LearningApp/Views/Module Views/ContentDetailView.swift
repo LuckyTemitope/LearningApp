@@ -22,9 +22,11 @@ struct ContentDetailView: View {
             if url != nil {
                 VideoPlayer(player: AVPlayer(url: url!))
                     .cornerRadius(10)
+                    .frame(height: 200)
             }
             
             // TODO: Description
+            CodeTextView()
             
             // Show Next Lesson Button only if there's a next lesson
             if model.hasNextLesson() {
@@ -34,22 +36,37 @@ struct ContentDetailView: View {
                 }, label: {
                     
                     ZStack{
-                        Rectangle()
-                            .foregroundColor(Color.green)
-                            .cornerRadius(10)
-                            .shadow(radius: 5)
-                            .frame(width: 334, height: 48)
+                        RectangleCard(color: Color.green)
+                            .frame(height: 48)
                         
                         Text("Next Lesson: \(model.currentModule!.content.lessons[model.currentLessonIndex + 1].title)")
                             .foregroundColor(Color.white)
                             .bold()
                     }
-            })
+                })
+            } else {
+                
+                // Show the completed Button
+                Button(action: {
+                    model.currentContentSelected = nil
+                }, label: {
+                    
+                    ZStack{
+                        RectangleCard(color: Color.green)
+                            .frame(height: 48)
+                        
+                        Text("Complete!")
+                            .foregroundColor(Color.white)
+                            .bold()
+                    }
+                })
+                
+                
             }
             
         }
         .padding()
-        .navigationBarTitle(model.currentModule!.content.lessons[model.currentLessonIndex].title)
+        .navigationBarTitle(lesson?.title ?? "")
     }
 }
 
